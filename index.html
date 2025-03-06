@@ -1,13 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Servicios de Software</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" defer></script>
 </head>
 <body>
-    <div>
-        
-    </div>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/logoComales.webp" alt="Logo de la empresa">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#equipo">Equipo</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h1>Expertos en Desarrollo de Software</h1>
+            <p>Soluciones innovadoras para tu negocio</p>
+            <a href="#servicios" class="btn">Ver Servicios</a>
+        </div>
+    </section>
+
+    <section id="servicios" class="section">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="service-grid">
+                <div class="service">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Desarrollo Web</h3>
+                    <p>Creación de sitios modernos y escalables.</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Apps Móviles</h3>
+                    <p>Apps nativas y multiplataforma.</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Consultoría</h3>
+                    <p>Asesoramiento en tecnologías emergentes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="equipo" class="section">
+        <div class="container">
+            <h2>Nuestro Equipo</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="assets/integrante1.jpg" alt="Integrante 1">
+                    <h3>Nombre 1</h3>
+                    <p>Desarrollo Web</p>
+                </div>
+                <div class="team-member">
+                    <img src="assets/integrante2.jpg" alt="Integrante 2">
+                    <h3>Nombre 2</h3>
+                    <p>IA & Machine Learning</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form>
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Correo Electrónico" required>
+                <textarea placeholder="Mensaje" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 SoftExpert. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
