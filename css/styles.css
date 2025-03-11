@@ -136,16 +136,24 @@ nav ul li a:hover {
     gap: 40px;
     text-align: center;
     margin-top: 40px;
+
+    background: white;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 .team-member {
     background: white;
     padding: 30px;
     border-radius: 14px;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
 }
+/*
 .team-member:hover {
     transform: translateY(-12px);
+}
+*/
+.team-member img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
 }
 .team-member img {
     width: 300px;
