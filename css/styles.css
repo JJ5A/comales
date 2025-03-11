@@ -25,7 +25,7 @@ header {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
 }
 .logo img {
-    width: 200px;
+    width: 100px;
     margin-left: 10px;
 }
 nav {
@@ -65,11 +65,20 @@ nav ul li a:hover {
     padding: 60px;
     border-radius: 12px;
 }
-.hero h1 {
-    font-size: 46px;
-    margin: 0;
+
+.header-container {
+    display: flex;
+    align-items: center; 
+    justify-content: start; 
+    gap: 20px; 
+}
+
+.titulo {
+    font-size: 24px;
     font-weight: bold;
-    letter-spacing: 1px;
+    color: white;
+    margin: 0; 
+    white-space: nowrap; 
 }
 .btn {
     display: inline-block;
